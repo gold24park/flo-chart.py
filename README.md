@@ -43,6 +43,13 @@ FLO 차트
 - `rank` – The track's current rank position on the chart.
 - `isNew` – Whether the track is new to the chart.
 
+### K-Pop music chart Python APIs
+- [Melon | melon-chart.py](https://github.com/gold24park/melon-chart.py)
+- [Bugs | bugs-chart.py](https://github.com/gold24park/bugs-chart.py)
+- [Genie | genie-chart.py](https://github.com/gold24park/genie-chart.py)
+- [Vibe | vibe-chart.py](https://github.com/gold24park/vibe-chart.py)
+- [Flo | flo-chart.py](https://github.com/gold24park/flo-chart.py)
+
 ## Dependencies
 - [requests](https://requests.readthedocs.io/en/latest/)
 
