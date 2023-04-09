@@ -1,0 +1,34 @@
+POST https://clienttoken.spotify.com/v1/clienttoken
+Accept application/json
+Request JSON
+{
+  "client_data": {
+    "client_version": "1.2.10.35.g47464f56",
+    "client_id": "f6a40776580943a7bc5173125a1e8832",
+    "js_sdk_data": {
+      "device_brand": "Nexus",
+      "device_model": "unknown",
+      "os": "android",
+      "os_version": "6.0",
+      "device_id": "1b755fef23c0cf10481e7a2ede5939ac",
+      "device_type": "smartphone"
+    }
+  }
+}
+Response BODY
+{
+    "response_type": "RESPONSE_GRANTED_TOKEN_RESPONSE",
+    "granted_token": {
+        "token": "AABEmld9b81Qgzae5UV4WmheUDp/LjlYR9LH4Yz0ihjSWFnk+QSJESOj89GWbg06Sd0gHc9b9Jg2aDulau6DivVUHhujyJkm8fEmTDlOPtacN1QYJyQlSiqlasxBlezKoppkMvtQvkAoBZguCcD/ZmawkrQgtb9R/QBQzO9bSGs8WZNcJ+Un+quin1SVMtMoBOuNpISA2PsjsgoKNgS921ZBhIIzWuUUJb0HuiUjNGLlaXCwqcA42c2n4uEdhYY//ZsVmoxzkY9pMssbVI3gMllcxtAHz6BHPjQB",
+        "expires_after_seconds": 1216800,
+        "refresh_after_seconds": 1209600,
+        "domains": [
+            {
+                "domain": "spotify.com"
+            },
+            {
+                "domain": "spotify.net"
+            }
+        ]
+    }
+}
