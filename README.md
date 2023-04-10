@@ -1,4 +1,4 @@
-# flo-chart.py
+# 🌊 FLO 차트 API: flo-chart.py
 ![flo](./image.png)
 
 flo-chart.py is a Python API that retrieves the TOP 100 information from the [FLO](https://www.music-flo.com/).
